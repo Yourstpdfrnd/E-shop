@@ -1,0 +1,58 @@
+html{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+}
+ul,
+li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    margin: 0;
+    font-size: inherit;
+}
+p{
+    margin: 0;
+}
+body{
+    min-width: 320px;
+    width: 100%;
+    position: relative;
+    color: #2F3035;
+    font-weight: 400;
+    font-family: 'SFProDisplay-Regular', sans-serif;
+    background: #Fff;
+    overflow-x: hidden;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.page-section{
+    margin-bottom: 80px;
+}
+.title{
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    font-family: 'Barlow', sans-serif;
+    margin-bottom: 25px;
+}
